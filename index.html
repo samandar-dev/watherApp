@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Api</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+  <section class="weather">
+    <div class="weather__inner">
+      <form class="weather__form">
+        <input class="weather__search" type="text" name="text" id="search" placeholder="Search" required>
+        <button class="weather__search_btn" id="submitBtn" type="submit">
+          <i class='bx bx-search'></i>
+        </button>
+      </form>
+
+      <div class="weather__content">
+        <h2 class="weather__tit" id="name">Azerbaijan, Baku</h2>
+        <p class="weather__tit" id="degrees">13°C</p>
+        <p class="weather__tit" id="wind">Sunny <i class='bx bx-sun'></i></p>
+      </div>
+
+      <div class="weather__wind-box">
+        <p class="weather__wind" id="humidity">Humidity: 40%</p>
+        <p class="weather__wind" id="windSpeed">Wind Speed: 13 km/h</p>
+      </div>
+
+      <div class="weather__img-box">
+        <img src="images/sunny.svg" alt="icon">
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
