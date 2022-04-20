@@ -48,9 +48,9 @@ function weather(e) {
           weatherImgBox.innerHTML = `<img src="images/snow.svg" alt="icon">`;
         }
         else if (wind.main == "Clear") {
-          section.style.backgroundColor = '#712B75'
-          windTit.innerHTML = `${wind.main}<i class='bx bx-moon'></i>`;
-          weatherImgBox.innerHTML = `<img src="images/clear.svg" alt="icon">`;
+          section.style.backgroundColor = '#42C2FF'
+          windTit.innerHTML = `${wind.main}<i class='bx bx-sun'></i>`;
+          weatherImgBox.innerHTML = `<img src="images/sunny.svg" alt="icon">`;
         }
       })
     })
